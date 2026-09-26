@@ -298,6 +298,31 @@ variants such as `small.en` are a little better on English.
   yt-dlp versions want a JavaScript runtime (Deno) for full YouTube support
   and print a warning without one; captions usually still work.
 
+## Responsible use
+
+This plugin is a tool for studying videos you are allowed to access, the
+same way you would by watching them yourself. You are responsible for how
+you use it:
+
+- **Follow each site's terms of service.** Some platforms, including
+  YouTube, restrict downloading in their terms. Check the rules of any site
+  before using this plugin on it, and only process videos you have the
+  right to use.
+- **Respect copyright.** Downloaded videos, frames and transcripts stay on
+  your machine as working files for learning and reference. Don't
+  redistribute other people's content, and delete the working files when you
+  are done (the skill tells Claude where they are).
+- **Lessons are notes, not copies.** The `learn-from-video` skill writes
+  short summaries in its own words, with timestamps pointing back to the
+  source, so credit stays with the original creators. Keep it that way if
+  you share lesson skills with others.
+- **Don't use it to get around access controls.** Private, members-only,
+  paywalled or region-locked videos are out of scope. The plugin doesn't try
+  to bypass logins, and you shouldn't make it.
+
+The software is provided "as is" under the MIT License, with no warranty.
+The authors are not responsible for how it is used.
+
 ## Development
 
 ```bash

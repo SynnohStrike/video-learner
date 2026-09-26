@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "video-learner",
+  "owner": {
+    "name": "SynnohStrike"
+  },
+  "metadata": {
+    "description": "Let Claude watch videos (free offline transcription, no API key) and turn the videos you learn from into skills every future session remembers.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "video-learner",
+      "source": "./plugins/video-learner",
+      "description": "Watch any video (frames + transcript, with free local Whisper when there are no captions) and learn from videos into permanent topic lesson skills. Watch skill forked from claude-video by Bradley Bonanno (MIT).",
+      "version": "0.1.0",
+      "author": {
+        "name": "SynnohStrike"
+      },
+      "homepage": "https://github.com/SynnohStrike/video-learner",
+      "repository": "https://github.com/SynnohStrike/video-learner",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["video", "watch", "youtube", "transcription", "whisper", "faster-whisper", "offline", "learning", "skills", "yt-dlp", "ffmpeg"]
+    }
+  ]
+}

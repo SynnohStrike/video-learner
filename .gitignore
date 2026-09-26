@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and local config — never commit
+.env
+.env.*
+*.key
+
+# Work dirs and media from local testing
+watch-*/
+*.mp4
+*.wav
+*.mp3
+*.m4a
+*.webm
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/settings.local.json
+dist/

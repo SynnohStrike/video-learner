@@ -1,0 +1,54 @@
+---
+name: {{NAME}}
+description: Everything learned from the {{TOPIC}} videos the user has sent ({{ABOUT}}), distilled into numbered lessons with sources, the exact numbers the creators gave, and where they disagree. Use this whenever {{USE_WHEN}}; whenever the user asks what the videos said or why a lesson exists; and whenever the user sends a new video or link about {{TOPIC}} to learn from, even if the videos are not mentioned.
+---
+
+# {{TITLE}}: lessons from videos
+
+The user sends videos about {{TOPIC}} to learn from. This skill is the memory
+of what they taught, so it carries across every chat. It was built by the
+learn-from-video skill; keep it current with the procedure at the bottom.
+
+## What is in here
+
+- `references/principles.md`: the rulebook. Every lesson with its sources,
+  the exact numbers the creators gave (with timestamps), and which videos
+  added it, agreed with it or disagreed. Read it before giving advice that
+  depends on a detail.
+- `references/video-index.md`: every video studied, one line each: who,
+  how long, how it was studied, what it is good for. Start here to find a
+  source.
+- `references/videos/<id>.md`: detailed notes per video, with timestamps
+  and a "What's on screen" section when frames were studied.
+- `references/transcripts/<id>.txt`: the transcripts the notes were built
+  from, with [mm:ss] marks. Search these when the notes don't answer a
+  question.
+
+## The lessons in one page
+
+Ordered by how much they matter. "(n/N videos)" is how many of the N videos
+studied so far taught it. Numbers are the creators' own; **(inference)**
+marks anything worked out here rather than said in a video.
+
+_No videos studied yet._
+
+## Where the videos disagree
+
+_Nothing yet._
+
+## When a new video arrives
+
+Study it with the learn-from-video skill (it uses /watch for the transcript
+and frames), then keep this skill current, because that is the point of it.
+If the video is about a different topic, it belongs in another
+`*-video-lessons` skill instead (or as well).
+
+1. Save the transcript to `references/transcripts/<id>.txt` and write
+   `references/videos/<id>.md` in the same format as the others.
+2. Add a row to `references/video-index.md`.
+3. Mark each lesson NEW, AGREES or CONFLICTS against
+   `references/principles.md`; update the rulebook, then the one-page list
+   above (bump every "(n/N videos)" count, since N grows for all of them).
+4. Never invent numbers; mark guesses **(inference)**. Skip sponsor reads,
+   app click-paths and motivation.
+5. Tell the user in a few plain lines what was new and what it changes.

@@ -1,0 +1,12 @@
+{
+  "name": "video-learner",
+  "version": "0.1.0",
+  "description": "Let Claude watch a video (yt-dlp download, scene-aware ffmpeg frames, captions or Whisper with a free offline faster-whisper fallback) and turn the videos you learn from into topic lesson skills that every future session knows. The watch skill is a fork of claude-video by Bradley Bonanno (MIT).",
+  "author": {
+    "name": "SynnohStrike"
+  },
+  "homepage": "https://github.com/SynnohStrike/video-learner",
+  "repository": "https://github.com/SynnohStrike/video-learner",
+  "license": "MIT",
+  "keywords": ["video", "watch", "youtube", "transcription", "whisper", "faster-whisper", "offline", "learning", "skills", "yt-dlp", "ffmpeg", "multimodal", "frames"]
+}

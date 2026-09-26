@@ -1,0 +1,4 @@
+# Keep LF endings on checkout everywhere: bash chokes on CRLF in hook scripts.
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
